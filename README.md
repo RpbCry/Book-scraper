@@ -3,18 +3,24 @@ This is a Python script that demonstrates how to scrape book titles and prices f
 
 ## Requirements
 To run the script, you'll need the following:
-Python (>=3.6)
-requests library
-beautifulsoup4 library
+`Python (>=3.6)`
+`requests library`
+`beautifulsoup4 library`
 You can install the required libraries using pip:
+```
 pip install requests
+```
+```
 pip install beautifulsoup4
+```
 
 ## Usage
-Clone the repository or download the web_scraping_books.py file.
-Open a terminal or command prompt and navigate to the directory where the web_scraping_books.py file is located.
+Clone the repository or download the `web_scraping_books.py` file.
+Open a terminal or command prompt and navigate to the directory where the `web_scraping_books.py` file is located.
 Run the script:
+```
 python web_scraping_books.py
+```
 The script will start scraping the book titles and prices from the website. It will print the extracted data to the console.
 
 ## Note
@@ -30,4 +36,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 The script is inspired by the need for educational purposes and to demonstrate web scraping techniques using Python and BeautifulSoup.
-The https://books.toscrape.com website is used as a sample source for web scraping. All book data and website content belong to their respective owners.
+The website is used as a sample source for web scraping. All book data and website content belong to their respective owners.
+```
+https://books.toscrape.com
+```
